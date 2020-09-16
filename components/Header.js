@@ -11,7 +11,7 @@ const Header = ({ isDark }) => {
         <span className=""></span>
         <span className="logo-text">Next Web</span>
       </div>
-      Now I am a real Header!
+      {/* Now I am a real Header! */}
     </HeaderStyled>
   );
 };
