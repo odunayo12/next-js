@@ -16,8 +16,8 @@
       "type": "string"
     },
     "movies": {
-      "collection": "movies",
       "via": "actors",
+      "collection": "movies",
       "dominant": true
     }
   }

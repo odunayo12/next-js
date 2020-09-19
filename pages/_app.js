@@ -3,13 +3,8 @@
 import Header from "components/Header";
 // import next from "next";
 import { ThemeProvider as TP } from "emotion-theming";
-import GlobalStyles from "../components/GlobalStyles/GlobalStyles";
-
-const theme = {
-  colors: {
-    primary: "#efefef",
-  },
-};
+import GlobalStyles from "components/GlobalStyles/GlobalStyles";
+import theme from "../theme/theme.js";
 
 function MyApp({ Component, pageProps }) {
   return (

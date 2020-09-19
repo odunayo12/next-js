@@ -27,8 +27,11 @@
       "required": false
     },
     "actors": {
-      "via": "movies",
-      "collection": "actors"
+      "collection": "actors",
+      "via": "movies"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
